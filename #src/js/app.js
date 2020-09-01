@@ -8,7 +8,7 @@ const mainMenu = document.querySelector('.header');
 const logo = document.querySelector('.logo');
 const menu = document.querySelectorAll('.menu');
 const socialBtn = document.querySelectorAll('.soc');
-   
+
 function displayBurgerMenu() {
         burgerCenterBtn.style.display = 'none';
         burgerStartBtn.style.transform = 'rotate(45deg) translateX(10px)';
